@@ -1,0 +1,32 @@
+Question 1. int a = 0;
+
+for (i = 0; i < N; i++) 
+{
+
+for (j = N; j > i; j--) 
+{
+
+a = a + i + j;
+
+}
+
+}
+Answer- Time complexity is O(N^2)
+
+Question 2. Wha t is the time complexity of the following code?
+int count = 0;
+for (int i = 1; i <= n; i = i*2)
+     {
+         For (int j = 1; j <= i; j++)
+           {
+               count = count + 1;
+           }  
+      }
+
+Answer- O(log(log n))
+
+Question 3. Find the best case, average case and the worst case of linear Search Algorithm.
+
+Answer- best case is O(1)
+        average case is O(n/2)
+        worst case is O(n)
